@@ -7,7 +7,9 @@ I have been reversing and patching debugserver for long enough now, to notice th
 
 `Error launching remote program: security policy error.`
 
-here is the debugger output up until the error which is fatal.
+which leads me to think: somewhere a CRC is performed (not on iphone, becuase executing from shell runs fine) on the host mac !!!?!?!?!?
+
+here is the debugger output up until the error which is fatal. (xcode)
 
 {{{
 [Session started at 2009-06-13 21:54:12 +1000.]
