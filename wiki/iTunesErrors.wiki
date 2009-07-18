@@ -1,0 +1,21 @@
+#error codes and explanations
+
+= incompatible debugger =
+
+MobileDevice: receive_message: Could not receive size of message: -1 Bad file descriptor
+MobileDevice: _read_callback: Could not receive message
+MobileDevice: _receive_message: Could not securely receive message size: SSL_ERROR_SYSCALL (Early EOF reached)
+MobileDevice: _send_message: Could not securely send message size 417: SSL_ERROR_SYSCALL errno (Broken pipe)
+
+MobileDevice: AMDeviceStopSession: Could not stop session with device: kAMDUndefinedError
+MobileDevice: _send_message: Could not securely send message size 336: SSL_ERROR_SSL (error:1409F07F:SSL routines:SSL3_WRITE_PENDING:bad write retry)
+
+Crash report copy task returned error code -24MobileDevice: _send_message: Could not securely send message size 403: SSL_ERROR_SYSCALL errno (Broken pipe)
+
+MobileDevice: disable_sigpipe: Could not disable SIGPIPE on socket
+MobileDevice: _send_message: Could not securely send message size 405: SSL_ERROR_SSL (error:1409F07F:SSL routines:SSL3_WRITE_PENDING:bad write retry)
+
+MobileDevice: AMDeviceStopSession: Could not stop session with device: kAMDUndefinedError
+MobileDevice: _send_message: Could not securely send message size 324: SSL_ERROR_SSL (error:1409F07F:SSL routines:SSL3_WRITE_PENDING:bad write retry)
+
+--this was just an anomaly but i scared me for a sec :) (ota developer upgrading in secret)
